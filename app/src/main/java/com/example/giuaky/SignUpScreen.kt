@@ -145,7 +145,7 @@ fun SignUpScreen(navController: NavController){
         Spacer(modifier = Modifier.padding(40.dp))
 
         Button(onClick = { /*TODO*/ }, modifier = Modifier.fillMaxWidth()){
-            Text(text = "Sign In", color = Color.White)
+            Text(text = "Sign Up", color = Color.White)
         }
 
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {
